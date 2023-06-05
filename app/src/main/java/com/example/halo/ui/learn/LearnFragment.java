@@ -1,4 +1,4 @@
-package com.example.halo.ui.dashboard;
+package com.example.halo.ui.learn;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,14 +12,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.halo.databinding.FragmentDashboardBinding;
 
-public class DashboardFragment extends Fragment {
+public class LearnFragment extends Fragment {
 
     private FragmentDashboardBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        DashboardViewModel dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
+        LearnViewModel dashboardViewModel =
+                new ViewModelProvider(this).get(LearnViewModel.class);
 
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
