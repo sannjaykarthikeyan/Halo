@@ -3,5 +3,25 @@
     <string name="title_learn">Learn</string>
     <string name="title_prevent">Prevent</string>
     <string name="title_report">Report</string>
-    <string name="intro_se">Are you being Sexually Exploited?</string>
+    <string name="title">What is child trafficking and sexual exploitation?</string>
+    <string name="child">Child trafficking and sexual assault are deeply distressing issues that continue to plague societies worldwide. They not only violate the rights of innocent children but also inflict long-lasting physical, emotional, and psychological harm. Here are some key points to consider regarding these grave concerns:</string>
+    <string name="child2">- Child trafficking involves the illegal recruitment, transportation, and exploitation of children for various purposes, including forced labor, sex trafficking, and organ trafficking.
+\n\n
+- It is a highly profitable criminal industry, driven by factors such as poverty, conflict, and social vulnerability, which makes children more susceptible to manipulation and coercion.
+\n\n
+- Traffickers often deceive families with false promises of better opportunities for their children, only to subject them to horrendous conditions, physical abuse, and sexual exploitation.
+\n\n
+- The consequences of child trafficking are devastating, with victims suffering from physical injuries, psychological trauma, disrupted education, and a loss of trust in society.
+</string>
+    <string name="sa">- Sexual assault against children is a severe form of abuse that involves any sexual act or behavior inflicted upon a child without their consent.
+\n\n
+- The perpetrators of sexual assault can be strangers, acquaintances, or even family members, which makes it a complex and challenging issue to address.
+\n\n
+- Victims of sexual assault endure profound emotional and psychological trauma, including feelings of shame, guilt, fear, and a distorted sense of self-worth.
+\n\n
+- The long-term effects of sexual assault can manifest as post-traumatic stress disorder (PTSD), depression, anxiety, self-harm, substance abuse, and difficulties in forming healthy relationships.
+</string>
+    <string name="conc">It is crucial to raise awareness, strengthen legal frameworks, and provide comprehensive support services for survivors to combat child trafficking and sexual assault effectively. The protection and well-being of children must be a priority for individuals, communities, and governments, working collectively to create a safe and nurturing environment for every child.
+\n\n\n\n
+    </string>
 </resources>
