@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.learn.LearnFragment"
     android:layout_marginStart="10dp"
-    android:layout_marginEnd="10dp"
     android:layout_marginTop="1dp"
+    android:layout_marginEnd="10dp"
     android:layout_marginBottom="10dp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="1.0">
+    app:layout_constraintVertical_bias="1.0"
+    tools:context=".ui.learn.LearnFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,14 +23,36 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/gelasio_semibold"
+            android:lineSpacingExtra="10sp"
             android:text="@string/report_tit"
             android:textColor="#000000"
-            android:textSize="35sp"
-            android:lineSpacingExtra="10sp"/>
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_intro"
+            android:textColor="#000000"
+            android:paddingBottom="30sp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/reportInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Type here..."
+            android:textColorHint="#3B000000"
+            android:inputType="textMultiLine"
+            android:paddingBottom="50sp"
+            android:textColor="#000000" />
 
     </LinearLayout>
 
