@@ -15,9 +15,6 @@
             android:name=".videocatalogue"
             android:exported="false" />
         <activity
-            android:name=".PreventingcsaActivity"
-            android:exported="false" />
-        <activity
             android:name=".thebasics"
             android:exported="false" />
 
