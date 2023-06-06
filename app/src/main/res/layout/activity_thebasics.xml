@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0"
+    tools:context=".ui.learn.LearnFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gelasio_semibold"
+            android:text="@string/title"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:lineSpacingExtra="10sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gelasio_semibold"
+            android:lineSpacingExtra="10sp"
+            android:paddingTop="20sp"
+            android:text="@string/child"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gelasio_semibold"
+            android:lineSpacingExtra="10sp"
+            android:paddingTop="20sp"
+            android:text="@string/child2"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gelasio_semibold"
+            android:paddingTop="20sp"
+            android:text="@string/sa"
+            android:textColor="#000000"
+            android:lineSpacingExtra="10sp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gelasio_semibold"
+            android:lineSpacingExtra="10sp"
+            android:paddingTop="20sp"
+            android:text="@string/conc"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/titleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/desc_prevent"
+            android:scaleType="fitXY"
+            android:src="@drawable/fixed"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+
+    </LinearLayout>
+</ScrollView>
