@@ -16,8 +16,12 @@ public class LearnFragment extends Fragment {
 
     private FragmentDashboardBinding binding;
 
+
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
+
         LearnViewModel dashboardViewModel =
                 new ViewModelProvider(this).get(LearnViewModel.class);
 
@@ -27,6 +31,9 @@ public class LearnFragment extends Fragment {
         final TextView textView = binding.textView;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
+
+
+
     }
 
     @Override
