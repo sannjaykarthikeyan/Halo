@@ -31,5 +31,5 @@
     <string name="tip_2">Promote child protection: Encourage the implementation of child protection policies in schools, community organizations, and other institutions. These policies should include strict background checks for employees and volunteers who work with children. \n\n</string>
     <string name="tip_3">Report suspicious activities: If you suspect child trafficking or sexual exploitation, report it to the appropriate authorities immediately. In many countries, there are helplines and hotlines dedicated to reporting such cases. You can also report a case using our report option which can navigated to using the bottom right button.\n\n</string>
     <string name="report_tit">Want to report something? Report here.</string>
-    <string name="report_intro">Remember to include as much information as possible, such as contact information, locations, names, descriptions, times, etc. The more information you provide, the easier it will be for us to notify emergency services.</string>
+    <string name="report_intro">Remember to include as much information as possible, such as contact information, locations, names, descriptions, times, etc. The more information you provide, the easier it will be for us to notify emergency services. If it is an emergency, call 911 instead. You may also reach out to other available hotlines.</string>
 </resources>
