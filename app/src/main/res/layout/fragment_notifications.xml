@@ -30,6 +30,7 @@
             android:lineSpacingExtra="10sp"
             android:text="@string/report_tit"
             android:textColor="#000000"
+            android:paddingBottom="20sp"
             android:textSize="35sp" />
 
         <TextView
