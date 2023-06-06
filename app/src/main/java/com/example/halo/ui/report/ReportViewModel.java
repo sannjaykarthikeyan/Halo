@@ -7,8 +7,10 @@ import androidx.lifecycle.ViewModel;
 public class ReportViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
+    public static ReportViewModel reportview;
 
     public ReportViewModel() {
+        reportview = this;
         mText = new MutableLiveData<>();
         mText.setValue("This is report fragment");
     }
