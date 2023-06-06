@@ -32,4 +32,13 @@
     <string name="tip_3">Report suspicious activities: If you suspect child trafficking or sexual exploitation, report it to the appropriate authorities immediately. In many countries, there are helplines and hotlines dedicated to reporting such cases. You can also report a case using our report option which can navigated to using the bottom right button.\n\n</string>
     <string name="report_tit">Want to report something? Report here.</string>
     <string name="report_intro">Remember to include as much information as possible, such as contact information, locations, names, descriptions, times, etc. The more information you provide, the easier it will be for us to notify emergency services.</string>
+    <string name="title_activity_settings">settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

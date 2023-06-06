@@ -42,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
 
+        ImageButton settings = (ImageButton) findViewById(R.id.settings);
+
+        settings.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=NIXwhmLcbZ8"));
+                startActivity(browserIntent);
+            }
+        });
+
 
         class FragmentHome extends Activity {
 
