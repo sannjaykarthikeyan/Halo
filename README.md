@@ -5,9 +5,6 @@ Sannjay Karthikeyan, Kabir Jain, Patrick Wang, Andrew Hu, Mohamed Saidi.
 
 Halo is an Android app that allows users to learn, prevent and report sexual exploitation and child trafficking. It incorporates a three-step process: Learn, Prevent, and Report.
 
-
-Project Files (demos, videos, runnable APK): https://drive.google.com/drive/folders/1maor5nAVUhVYY5QlKuXD9kMV6m4Twdvu?usp=sharing
-
 Screenshots:
 ![Report Feature (Screenshot)](https://github.com/sannjaykarthikeyan/Halo/assets/71292161/372ae67a-74d3-488f-9729-a5b7b9b3f6df)
 (Report potential abuse using our in-app features)
